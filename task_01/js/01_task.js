@@ -1,5 +1,5 @@
 
-window.addEventListener('load', function() {
+$(document).ready(function() {
 
     let button = $('#add-item-btn');
     let container = $('#container');
@@ -18,6 +18,6 @@ window.addEventListener('load', function() {
             evt.preventDefault();
             console.log($('.notification'));
             $('.notification').hide();
-        })
-    })
-})
+        });
+    });
+});
